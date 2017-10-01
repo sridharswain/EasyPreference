@@ -28,4 +28,30 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
+    compile 'com.google.code.gson:gson:2.2.4'
 }
+ext {
+    bintrayRepo = 'EasyPreference'
+    bintrayName = 'EasyPreference'
+
+    publishedGroupId = 'com.fourthstatelab'
+    libraryName = 'EasyPreference'
+    artifact = 'EasyPreference'
+
+    libraryDescription = 'A widget to load WebView as an Overlay.'
+
+    siteUrl = 'https://dl.bintray.com/sridharswain25/EasyPreference'
+    gitUrl = 'https://github.com/sridharswain/EasyPreferences.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'id1'
+    developerName = 'Sridhar Swain'
+    developerEmail = 'sridharswain25@hotmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

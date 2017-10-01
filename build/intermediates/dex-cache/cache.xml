@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/sid/Projects/EasyPreferences/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/sid/Projects/EasyPreferences/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cf72e2c987c30a9bf1ef2e6fd20e5eb40b86d45d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/sid/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.51/8b5933578dc55f32cfc1a25f1db6371e4161fb8f/kotlin-stdlib-jre7-1.1.51.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8b5933578dc55f32cfc1a25f1db6371e4161fb8f">
+        <dex dex="/home/sid/Projects/EasyPreferences/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-stdlib-jre7-1.1.51_ad3da1aea1fa44805b802a9653973ad5d10bfcea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/sid/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="/home/sid/Projects/EasyPreferences/app/build/intermediates/transforms/dex/debug/folders/1000/10/annotations-13.0_c006883c4d4c433e9a7d2f25ee70c9667f5d528c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/sid/Projects/EasyPreferences/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b34cfbe3ddefec61e2c940c851258a54fb08430c">
+        <dex dex="/home/sid/Projects/EasyPreferences/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b5dd470caaa683e97cae2bc008034e3e88822a38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/sid/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/e34fe80c9714240525f665113dd3749415515655/kotlin-stdlib-1.1.51.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e34fe80c9714240525f665113dd3749415515655">
+        <dex dex="/home/sid/Projects/EasyPreferences/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-stdlib-1.1.51_5f96b82dfa7c6ed1884c1cb8ec3979e93b4815c0/classes.dex" />
+    </item>
+
+</items>
