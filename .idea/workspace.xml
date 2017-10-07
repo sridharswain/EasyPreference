@@ -12,13 +12,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt" line="27" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99024f07-234f-468b-8383-61f5a0810788" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/KotlinExample.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/JavaExample.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/JavaExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easypreference/src/main/java/com/fourthstatelab/easypreference/Preference.java" afterPath="$PROJECT_DIR$/easypreference/src/main/java/com/fourthstatelab/easypreference/Preference.java" />
-    </list>
+    <list default="true" id="99024f07-234f-468b-8383-61f5a0810788" name="Default" comment="" />
     <ignored path="EasyPreferences.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -3678,7 +3672,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
