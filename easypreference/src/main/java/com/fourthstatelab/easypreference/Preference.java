@@ -17,6 +17,8 @@ public class Preference {
     //SHARED PREFERENCES INSTANCE OF THE APP
     private Context context;
     private String prefName;
+    private SharedPreferences preferences;
+    private SharedPreferences.Editor editor;
     public Preference(Context context){
         this.context = context;
         prefName = getAppName(context);
@@ -33,12 +35,14 @@ public class Preference {
         return "myPrefs";
     }
     private SharedPreferences getPrefsInstance(){
-        return context.getSharedPreferences(prefName,Context.MODE_PRIVATE);
+        if(preferences==null) preferences = context.getSharedPreferences(prefName,Context.MODE_PRIVATE);;
+        return preferences;
     }
 
     //SHARED PREFERENCES EDITOR INSTANCE OF THE APP
     private  SharedPreferences.Editor getPrefEditor(){
-        return getPrefsInstance().edit();
+        if(editor ==null) editor = getPrefsInstance().edit();
+        return editor;
     }
 
     //BOOLEAN PREFERENCES

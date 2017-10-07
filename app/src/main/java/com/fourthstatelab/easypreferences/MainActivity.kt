@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         preference = Preference(applicationContext)
 
+        val j = JavaExample(applicationContext)
+        val k = KotlinExample(applicationContext)
+
     }
 
     fun put(view : View) {
