@@ -6,7 +6,6 @@ import android.util.Log
 import android.view.View
 
 import com.fourthstatelab.easypreference.Preference
-import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 class MainActivity : AppCompatActivity() {
@@ -40,8 +39,10 @@ class MainActivity : AppCompatActivity() {
         Log.d("Integer",((preference.get(integer,2)).toString()))
         Log.d("Boolean",preference.get(boolean,false).toString())
         Log.d(string,preference.get(string,null))
-        var person1 :Person = preference.get(person1Str,object : TypeToken<Person>(){}.type)
+        var person1 :Person = preference.get(person1Str,object : TypeToken<Person>(){})
         Log.d(person1Str,person1.name)
+        val person2 = preference.get(person2Str,object  : TypeToken<Person>(){})
+        Log.d(person2Str,person2.name)
     }
 
 }

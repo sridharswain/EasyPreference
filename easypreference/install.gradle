@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.fourthstatelab.easypreference' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.fourthstatelab.easypreference' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'easypreference' // THE NAME OF YOUR MODULE
+
+                name 'Easy Preference' // YOUR LIBRARY NAME
+                description 'Shared Preference Simplified' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/sridharswain/EasyPreferences' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'sridharswain25' //YOUR ID
+                        name 'Sridhar Swain' //YOUR NAME
+                        email 'sridharswai25@hotmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/sridharswain/EasyPreferences.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/sridharswain/EasyPreferences.git' // YOUR GIT REPO
+                    url 'https://github.com/sridharswain/EasyPreferences' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}

@@ -1,19 +1,13 @@
 package com.fourthstatelab.easypreference;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.icu.text.DisplayContext;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import java.lang.reflect.Type;
 
 /**
  * Created by sid on 1/10/17.
@@ -21,13 +15,11 @@ import java.lang.reflect.Type;
 
 public class Preference {
     //SHARED PREFERENCES INSTANCE OF THE APP
-    Context context;
+    private Context context;
     private String prefName;
-    private Gson gson;
     public Preference(Context context){
         this.context = context;
         prefName = getAppName(context);
-        gson = new Gson();
     }
 
     private String getAppName(Context context){
@@ -40,7 +32,7 @@ public class Preference {
         }
         return "myPrefs";
     }
-    public SharedPreferences getPrefsInstance(){
+    private SharedPreferences getPrefsInstance(){
         return context.getSharedPreferences(prefName,Context.MODE_PRIVATE);
     }
 
@@ -79,19 +71,19 @@ public class Preference {
             getPrefEditor().putString(key,null).apply();
         }
         else {
-            String toSave = gson.toJson(value);
+            String toSave = (new Gson()).toJson(value);
             getPrefEditor().putString(key, toSave).apply();
         }
     }
 
-    public String get(String key, @Nullable String defaultValue){
+    public String get(String key,String defaultValue){
         return getPrefsInstance().getString(key,defaultValue);
     }
 
-    public <E> E get(String key,@NonNull Type type){
+    public <E> E get(String key,TypeToken<E> type){
         String json = getPrefsInstance().getString(key,null);
         if(json==null) return null;
-        Log.d("Prefs",json);
-        return gson.fromJson(json,type);
+        return (new Gson()).fromJson(json,type.getType());
     }
+
 }
