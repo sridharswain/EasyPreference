@@ -60,7 +60,7 @@ Person[] persons = preference.get(personKey, new TypeToken<Person[]>(){});
 ```
 
 ## Development and Contribution
-This repository contains the source code of android template 1 of Pitch android application. 
+This repository contains the source code of easypreference library and examples.
 
 ## Development Setup
 1. Go to the project repo and click the `Fork` button
