@@ -12,7 +12,7 @@ it has simplified functions for ```put``` and ```get``` functions used in  ```Sh
 <dependency>
   <groupId>com.fourthstatelab.easypreference</groupId>
   <artifactId>easypreference</artifactId>
-  <version>0.0.2</version>
+  <version>1.0.0</version>
   <type>pom</type>
 </dependency>
 ```
