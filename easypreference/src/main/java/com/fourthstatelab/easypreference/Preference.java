@@ -6,7 +6,8 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
 
 
 /**
@@ -84,10 +85,10 @@ public class Preference {
         return getPrefsInstance().getString(key,defaultValue);
     }
 
-    public <E> E get(String key,TypeToken<E> type){
+    public <E> E get(String key,Type type){
         String json = getPrefsInstance().getString(key,null);
         if(json==null) return null;
-        return (new Gson()).fromJson(json,type.getType());
+        return (new Gson()).fromJson(json,type);
     }
 
 }

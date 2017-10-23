@@ -6,7 +6,7 @@ it has simplified functions for ```put``` and ```get``` functions used in  ```Sh
 
 ## Download and compile
 #### Gradle
-```compile 'com.fourthstatelab.easypreference:easypreference:0.0.3'```
+```compile 'com.fourthstatelab.easypreference:easypreference:1.0.0'```
 #### Maven 
 ```
 <dependency>
