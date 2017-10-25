@@ -9,7 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt" line="27" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt" line="26" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99024f07-234f-468b-8383-61f5a0810788" name="Default" comment="" />
@@ -65,14 +65,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KotlinExample.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KotlinExample.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/KotlinExample.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="e#44#191#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -3077,12 +3087,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/hello.kt" />
         <option value="$PROJECT_DIR$/easypreference/src/main/java/com/fourthstatelab/easypreference/ClassType.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/Hello.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt" />
         <option value="$PROJECT_DIR$/easypreference/build.gradle" />
         <option value="$PROJECT_DIR$/easypreference/bintray.gradle" />
         <option value="$PROJECT_DIR$/easypreference/src/main/java/com/fourthstatelab/easypreference/Preference.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/JavaExample.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/KotlinExample.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt" />
       </list>
     </option>
   </component>
@@ -3863,14 +3873,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/easypreference/src/main/java/com/fourthstatelab/easypreference/ClassType.java" />
     <entry file="jar://$USER_HOME$/Programs/Android/android-sdk-linux/platforms/android-26/android.jar!/android/content/Intent.class" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easypreference/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -3954,10 +3956,18 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/KotlinExample.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#44#191#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fourthstatelab/easypreferences/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

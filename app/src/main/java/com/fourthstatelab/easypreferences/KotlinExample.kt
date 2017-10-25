@@ -19,11 +19,11 @@ class KotlinExample(val context : Context) {
     init {
         preference = Preference(context)
 
-        putToDevice()
-        getFromDevice()
+        //putToDevice()
+        //getFromDevice()
     }
 
-    fun putToDevice(){
+    public fun putToDevice(){
         preference.put(integer, 2)
         preference.put(string, "A String saved to device")
         preference.put(bool, true)
