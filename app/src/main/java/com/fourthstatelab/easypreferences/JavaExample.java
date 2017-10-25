@@ -43,8 +43,8 @@ public class JavaExample {
     private void getFromDevice(){
         int integerFromDevice = preference.get(integer,0);
         String StringFromDevice = preference.get(string,"Not Found");
-        Person sid = preference.get(person1Str, new TypeToken<Person>(){});
-        Person[] persons = preference.get(personKey, new TypeToken<Person[]>(){});
+        Person sid = preference.get(person1Str, new TypeToken<Person>(){}.getType());
+        Person[] persons = preference.get(personKey, new TypeToken<Person[]>(){}.getType());
         Log.d(integer,String.valueOf(integerFromDevice));
         Log.d(string,StringFromDevice);
         Log.d(person1Str+"'s name",sid.getName());
